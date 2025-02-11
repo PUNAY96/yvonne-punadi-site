@@ -20,11 +20,17 @@ body{
     background-position: center;
 }
 
+.header-text p{
+    color: yellow;
+}
+
 .container{
     padding:2px 2%;
 }
 
 nav{
+    position: fixed;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -209,6 +215,18 @@ nav ul li a:hover::after{
     color: yellow;
 }
 .social-icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+.linkedin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.linkedin i{
+    color: yellow;
+}
+.linkedin a{
     text-decoration: none;
     color: white;
     font-size: 19px;
